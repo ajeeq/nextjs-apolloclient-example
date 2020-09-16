@@ -1,17 +1,6 @@
-//---------------------------//
-// Default Boilerplate Code: //
-//---------------------------//
-// import '../styles/globals.css'
-
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
-
-// export default MyApp
-
-//----------------------------//
-// Apollo CLient(React) Code: //
-//----------------------------//
+//--------------------------------//
+// Apollo CLient(React) HOC Code: //
+//--------------------------------//
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 export default function App({ Component, pageProps }) {
